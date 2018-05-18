@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Champions Trophy 2017</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="fixtures">Fixtures</string>
+    <string name="title_activity_match_details">Match Details</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_points_table">Points Table</string>
+    <string name="webApiUrl">http://zairexport.com/saad/silverhawk/championsTrophy2017.json</string>
+
+</resources>

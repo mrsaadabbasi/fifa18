@@ -1,0 +1,267 @@
+{
+  "Matches": [
+     {},
+    {
+      "TeamOne": "t3",
+      "TeamTwo": "t4",
+      "Date": "June 01, 2017",
+      "Day": "Thursday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kennington Oval, London"
+    },
+    {
+      "TeamOne": "t1",
+      "TeamTwo": "t2",
+      "Date": "June 02, 2017",
+      "Day": "Friday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Edgbaston, Birmingham"
+    },
+    {
+      "TeamOne": "t6",
+      "TeamTwo": "t7",
+      "Date": "June 03, 2017",
+      "Day": "Saturday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kennington Oval, London"
+    },
+     {
+      "TeamOne": "t5",
+      "TeamTwo": "t8",
+      "Date": "June 04, 2017",
+      "Day": "Sunday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Edgbaston, Birmingham"
+    },
+     {
+      "TeamOne": "t1",
+      "TeamTwo": "t4",
+      "Date": "June 05, 2017",
+      "Day": "Monday",
+      "Time": "12:30 PM	GMT	/ 01:30 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kennington Oval, London"
+    },
+    {
+      "TeamOne": "t2",
+      "TeamTwo": "t3",
+      "Date": "June 06, 2017",
+      "Day": "Tuesday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Sophia Gardens, Cardiff"
+    },
+    {
+      "TeamOne": "t6",
+      "TeamTwo": "t8",
+      "Date": "June 07, 2017",
+      "Day": "Wednesday",
+      "Time": "12:30 PM	GMT	/ 01:30 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Edgbaston, Birmingham"
+    },
+    {
+      "TeamOne": "t5",
+      "TeamTwo": "t7",
+      "Date": "June 08, 2017",
+      "Day": "Thursday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kennington Oval, London"
+    },
+    {
+      "TeamOne": "t2",
+      "TeamTwo": "t4",
+      "Date": "June 09, 2017",
+      "Day": "Friday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Sophia Gardens, Cardiff"
+    },
+    {
+      "TeamOne": "t1",
+      "TeamTwo": "t3",
+      "Date": "June 10, 2017",
+      "Day": "Saturday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Edgbaston, Birmingham"
+    },
+    {
+      "TeamOne": "t5",
+      "TeamTwo": "t6",
+      "Date": "June 11, 2017",
+      "Day": "Sunday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kennington Oval, London"
+    },
+    {
+      "TeamOne": "t7",
+      "TeamTwo": "t8",
+      "Date": "June 12, 2017",
+      "Day": "Monday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Sophia Gardens, Cardiff"
+    },
+   {
+      "TeamOne": "TBD",
+      "TeamTwo": "TBD",
+      "Date": "June 14, 2017",
+      "Day": "Wednesday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "First Semi-Final",
+      "WinningTeam": "",
+      "Venue": "Sophia Gardens, Cardiff"
+    },
+    {
+      "TeamOne": "TBD",
+      "TeamTwo": "TBD",
+      "Date": "June 15, 2017",
+      "Day": "Thursday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Second Semi-Final",
+      "WinningTeam": "",
+      "Venue": "Edgbaston, Birmingham"
+    },
+    {
+      "TeamOne": "TBD",
+      "TeamTwo": "TBD",
+      "Date": "June 18, 2017",
+      "Day": "Sunday",
+      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Round": "Final",
+      "WinningTeam": "",
+      "Venue": "Kennington Oval, London"
+    }   
+  ],
+"Teams": {
+    "t5" : {
+      "Name": "India",
+      "Short Name": "ind",
+      "Group": "Group B",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "sss"
+    },
+    "t2" : {
+       "Name": "New Zealand",
+      "Short Name": "nzl",
+      "Group": "Group A",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+    "t3" : {
+      "Name": "England",
+      "Short Name": "uk",
+      "Group": "Group A",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    }    ,
+    "t4" : {
+      "Name": "Bangladesh",
+      "Short Name": "bd",
+      "Group": "Group A",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+    "t1" : {
+      "Name": "Australia",
+      "Short Name": "aus",
+      "Group": "Group A",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+    "t6" : {
+      "Name": "South Africa",
+      "Short Name": "sa",
+      "Group": "Group B",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+    "t7" : {
+      "Name": "Srilanka",
+      "Short Name": "slk",
+      "Group": "Group B",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+    "t8" : {
+      "Name": "Pakistan",
+      "Short Name": "pk",
+      "Group": "Group B",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+
+   "Q1A" : {
+      "Name": "Q1A",
+      "Short Name": "tbd",
+      "Group": "Group B",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+    "Q1B" : {
+          "Name": "Q1B",
+          "Short Name": "tbd",
+          "Group": "Group A",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },"TBD" : {
+               "Name": "TBD",
+               "Short Name": "tbd",
+               "Group": "",
+               "Points": 0,
+               "Total matches": 0,
+               "Won": 0,
+               "Lost": 0,
+               "Status": "Knocked out or in which round"
+         }
+  }
+}

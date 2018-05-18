@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg01"
+    tools:context="com.example.itx_m.fifaworldcup2018.CtMainMenu">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logosmall" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Fixtures"
+            android:id="@+id/button3"
+            android:textColor="#ffffff"
+            android:background="@drawable/ballbtn"
+            android:onClick="showFixtures"
+            android:layout_alignTop="@+id/button2"
+            android:layout_toLeftOf="@+id/button2"
+            android:layout_toStartOf="@+id/button2"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Points\nTable"
+            android:id="@+id/button2"
+            android:background="@drawable/ballbtn"
+            android:onClick="showPointsTable"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/button"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Exit"
+            android:id="@+id/button"
+            android:background="@drawable/ballbtn"
+            android:onClick="exitApp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/button2"
+            android:layout_toEndOf="@+id/button2" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:theme="@android:style/Theme.Translucent"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-9842282663786907/2998820876" />
+
+    </RelativeLayout>
+</RelativeLayout>
