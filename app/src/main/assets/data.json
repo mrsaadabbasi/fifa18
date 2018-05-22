@@ -2,124 +2,484 @@
   "Matches": [
      {},
     {
-      "TeamOne": "t3",
-      "TeamTwo": "t4",
-      "Date": "June 01, 2017",
-      "Day": "Thursday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Kennington Oval, London"
-    },
-    {
       "TeamOne": "t1",
       "TeamTwo": "t2",
-      "Date": "June 02, 2017",
-      "Day": "Friday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Edgbaston, Birmingham"
-    },
-    {
-      "TeamOne": "t6",
-      "TeamTwo": "t7",
-      "Date": "June 03, 2017",
-      "Day": "Saturday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Kennington Oval, London"
-    },
-     {
-      "TeamOne": "t5",
-      "TeamTwo": "t8",
-      "Date": "June 04, 2017",
-      "Day": "Sunday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Edgbaston, Birmingham"
-    },
-     {
-      "TeamOne": "t1",
-      "TeamTwo": "t4",
-      "Date": "June 05, 2017",
-      "Day": "Monday",
-      "Time": "12:30 PM	GMT	/ 01:30 PM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Kennington Oval, London"
-    },
-    {
-      "TeamOne": "t2",
-      "TeamTwo": "t3",
-      "Date": "June 06, 2017",
-      "Day": "Tuesday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Sophia Gardens, Cardiff"
-    },
-    {
-      "TeamOne": "t6",
-      "TeamTwo": "t8",
-      "Date": "June 07, 2017",
-      "Day": "Wednesday",
-      "Time": "12:30 PM	GMT	/ 01:30 PM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Edgbaston, Birmingham"
-    },
-    {
-      "TeamOne": "t5",
-      "TeamTwo": "t7",
-      "Date": "June 08, 2017",
+      "Date": "June 14, 2018",
       "Day": "Thursday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
       "Round": "Qualifying Round",
       "WinningTeam": "",
-      "Venue": "Kennington Oval, London"
+      "Venue": "Luzhniki Stadium, Moscow"
     },
     {
-      "TeamOne": "t2",
+      "TeamOne": "t3",
       "TeamTwo": "t4",
-      "Date": "June 09, 2017",
+      "Date": "June 15, 2018",
       "Day": "Friday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
       "Round": "Qualifying Round",
       "WinningTeam": "",
-      "Venue": "Sophia Gardens, Cardiff"
-    },
-    {
-      "TeamOne": "t1",
-      "TeamTwo": "t3",
-      "Date": "June 10, 2017",
-      "Day": "Saturday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Edgbaston, Birmingham"
-    },
-    {
-      "TeamOne": "t5",
-      "TeamTwo": "t6",
-      "Date": "June 11, 2017",
-      "Day": "Sunday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
-      "Round": "Qualifying Round",
-      "WinningTeam": "",
-      "Venue": "Kennington Oval, London"
+      "Venue": "Ekaterinburg Arena, Ekaterinburg"
     },
     {
       "TeamOne": "t7",
       "TeamTwo": "t8",
-      "Date": "June 12, 2017",
-      "Day": "Monday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Date": "June 15, 2018",
+      "Day": "Friday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
       "Round": "Qualifying Round",
       "WinningTeam": "",
-      "Venue": "Sophia Gardens, Cardiff"
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
+    },
+     {
+      "TeamOne": "t5",
+      "TeamTwo": "t6",
+      "Date": "June 15, 2018",
+      "Day": "Friday",
+      "Time": "6:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Fisht Stadium, Sochi"
+    },
+     {
+      "TeamOne": "t9",
+      "TeamTwo": "t10",
+      "Date": "June 16, 2018",
+      "Day": "Saturday",
+      "Time": "10:00 AM	GMT	/ 01:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kazan Arena, Kazan"
+    },
+    {
+      "TeamOne": "t13",
+      "TeamTwo": "t14",
+      "Date": "June 16, 2018",
+      "Day": "Saturday",
+      "Time": "01:00 PM	GMT	/ 04:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Spartak Stadium, Moscow"
+    },
+    {
+      "TeamOne": "t11",
+      "TeamTwo": "t12",
+      "Date": "June 16, 2018",
+      "Day": "Saturday",
+      "Time": "04:00 PM	GMT	/ 07:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Mordovia Arena, Saransk"
+    },
+    {
+      "TeamOne": "t15",
+      "TeamTwo": "t16",
+      "Date": "June 16, 2018",
+      "Day": "Saturday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kaliningrad Stadium, Kaliningrad"
+    },
+    {
+      "TeamOne": "t19",
+      "TeamTwo": "t20",
+      "Date": "June 17, 2018",
+      "Day": "Sunday",
+      "Time": "01:00 PM	GMT	/ 04:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Samara Arena, Samara"
+    },
+    {
+      "TeamOne": "t21",
+      "TeamTwo": "t22",
+      "Date": "June 17, 2018",
+      "Day": "Sunday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Luzhniki Stadium, Moscow"
+    },
+    {
+      "TeamOne": "t17",
+      "TeamTwo": "t18",
+      "Date": "June 17, 2018",
+      "Day": "Sunday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Rostov Arena, Rostov-On-Don"
+    },
+    {
+      "TeamOne": "t23",
+      "TeamTwo": "t24",
+      "Date": "June 18, 2018",
+      "Day": "Monday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+    },
+	
+	{
+      "TeamOne": "t25",
+      "TeamTwo": "t26",
+      "Date": "June 18, 2018",
+      "Day": "Monday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Fisht Stadium, Sochi"
+    },
+	{
+      "TeamOne": "t27",
+      "TeamTwo": "t28",
+      "Date": "June 18, 2018",
+      "Day": "Monday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Volgograd Arena, Volgograd"
+    },
+	{
+      "TeamOne": "t31",
+      "TeamTwo": "t32",
+      "Date": "June 19, 2018",
+      "Day": "Tuesday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Mordovia Arena, Saransk"
+    },
+	{
+      "TeamOne": "t29",
+      "TeamTwo": "t30",
+      "Date": "June 19, 2018",
+      "Day": "Tuesday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Spartak Stadium, Moscow"
+    },
+	{
+      "TeamOne": "t1",
+      "TeamTwo": "t3",
+      "Date": "June 19, 2018",
+      "Day": "Tuesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
+    },
+	{
+      "TeamOne": "t5",
+      "TeamTwo": "t7",
+      "Date": "June 20, 2018",
+      "Day": "Wednesday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Luzhniki Stadium, Moscow"
+    },
+	{
+      "TeamOne": "t2",
+      "TeamTwo": "t4",
+      "Date": "June 20, 2018",
+      "Day": "Wednesday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Rostov Arena, Rostov-On-Don"
+    },
+	{
+      "TeamOne": "t6",
+      "TeamTwo": "t8",
+      "Date": "June 20, 2018",
+      "Day": "Wednesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kazan Arena, Kazan"
+    },
+	{
+      "TeamOne": "t10",
+      "TeamTwo": "t12",
+      "Date": "June 21, 2018",
+      "Day": "Thursday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Samara Arena, Samara"
+    },
+	{
+      "TeamOne": "t9",
+      "TeamTwo": "t11",
+      "Date": "June 21, 2018",
+      "Day": "Thursday",
+      "Time": "05:00 PM	GMT	/ 08:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Ekaterinburg Arena, Ekaterinburg"
+    },
+	{
+      "TeamOne": "t13",
+      "TeamTwo": "t15",
+      "Date": "June 21, 2018",
+      "Day": "Thursday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+    },
+	{
+      "TeamOne": "t17",
+      "TeamTwo": "t19",
+      "Date": "June 22, 2018",
+      "Day": "Friday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
+    },
+	{
+      "TeamOne": "t14",
+      "TeamTwo": "t16",
+      "Date": "June 22, 2018",
+      "Day": "Friday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Volgograd Arena, Volgograd"
+    },
+	{
+      "TeamOne": "t18",
+      "TeamTwo": "t20",
+      "Date": "June 22, 2018",
+      "Day": "Friday",
+      "Time": "05:00 PM	GMT	/ 08:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kaliningrad Stadium, Kaliningrad"
+    },
+	{
+      "TeamOne": "t25",
+      "TeamTwo": "t27",
+      "Date": "June 23, 2018",
+      "Day": "Saturday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Spartak Stadium, Moscow"
+    },
+	{
+      "TeamOne": "t22",
+      "TeamTwo": "t24",
+      "Date": "June 23, 2018",
+      "Day": "Saturday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Rostov Arena, Rostov-On-Don"
+    },
+	{
+      "TeamOne": "t21",
+      "TeamTwo": "t23",
+      "Date": "June 23, 2018",
+      "Day": "Saturday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Fisht Stadium, Sochi"
+    },
+	{
+      "TeamOne": "t26",
+      "TeamTwo": "t28",
+      "Date": "June 24, 2018",
+      "Day": "Sunday",
+      "Time": "12:00 PM	GMT	/ 03:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+    },
+	{
+      "TeamOne": "t30",
+      "TeamTwo": "t32",
+      "Date": "June 24, 2018",
+      "Day": "Sunday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Ekaterinburg Arena, Ekaterinburg"
+    },{
+      "TeamOne": "t29",
+      "TeamTwo": "t31",
+      "Date": "June 24, 2018",
+      "Day": "Sunday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kazan Arena, Kazan"
+    },
+	{
+      "TeamOne": "t1",
+      "TeamTwo": "t4",
+      "Date": "June 25, 2018",
+      "Day": "Monday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Samara Arena, Samara"
+    },
+	{
+      "TeamOne": "t2",
+      "TeamTwo": "t3",
+      "Date": "June 25, 2018",
+      "Day": "Monday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Volgograd Arena, Volgograd"
+    },
+	{
+      "TeamOne": "t6",
+      "TeamTwo": "t7",
+      "Date": "June 25, 2018",
+      "Day": "Monday",
+      "Time": "05:00 PM	GMT	/ 08:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kaliningrad Stadium, Kaliningrad"
+    },
+	{
+      "TeamOne": "t5",
+      "TeamTwo": "t8",
+      "Date": "June 25, 2018",
+      "Day": "Monday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Mordovia Arena, Saransk"
+    },
+	{
+      "TeamOne": "t10",
+      "TeamTwo": "t11",
+      "Date": "June 26, 2018",
+      "Day": "Tuesday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Fisht Stadium, Sochi"
+    },
+	{
+      "TeamOne": "t9",
+      "TeamTwo": "t12",
+      "Date": "June 26, 2018",
+      "Day": "Tuesday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Luzhniki Stadium, Moscow"
+    },
+	{
+      "TeamOne": "t13",
+      "TeamTwo": "t16",
+      "Date": "June 26, 2018",
+      "Day": "Tuesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
+    },
+		{
+      "TeamOne": "t14",
+      "TeamTwo": "t15",
+      "Date": "June 26, 2018",
+      "Day": "Tuesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Rostov Arena, Rostov-On-Don"
+    },
+	{
+      "TeamOne": "t21",
+      "TeamTwo": "t24",
+      "Date": "June 27, 2018",
+      "Day": "Wednesday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kazan Arena, Kazan"
+    },
+	{
+      "TeamOne": "t22",
+      "TeamTwo": "t23",
+      "Date": "June 27, 2018",
+      "Day": "Wednesday",
+      "Time": "04:00 PM	GMT	/ 07:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Ekaterinburg Arena, Ekaterinburg"
+    },
+	{
+      "TeamOne": "t17",
+      "TeamTwo": "t20",
+      "Date": "June 27, 2018",
+      "Day": "Wednesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Spartak Stadium, Moscow"
+    },
+	{
+      "TeamOne": "t18",
+      "TeamTwo": "t19",
+      "Date": "June 27, 2018",
+      "Day": "Wednesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+    },
+	{
+      "TeamOne": "t29",
+      "TeamTwo": "t32",
+      "Date": "June 28, 2018",
+      "Day": "Thursday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Volgograd Arena, Volgograd"
+    },
+	{
+      "TeamOne": "t30",
+      "TeamTwo": "t31",
+      "Date": "June 28, 2018",
+      "Day": "Thursday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Samara Arena, Samara"
+    },
+{
+      "TeamOne": "t26",
+      "TeamTwo": "t27",
+      "Date": "June 28, 2018",
+      "Day": "Thursday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Mordovia Arena, Saransk"
+    },
+	{
+      "TeamOne": "t25",
+      "TeamTwo": "t28",
+      "Date": "June 28, 2018",
+      "Day": "Thursday",
+      "Time": "05:00 PM	GMT	/ 08:00 PM LOCAL",
+      "Round": "Qualifying Round",
+      "WinningTeam": "",
+      "Venue": "Kaliningrad Stadium, Kaliningrad"
     },
    {
       "TeamOne": "TBD",
@@ -153,10 +513,10 @@
     }   
   ],
 "Teams": {
-    "t5" : {
-      "Name": "India",
-      "Short Name": "ind",
-      "Group": "Group B",
+    "t1" : {
+      "Name": "Russia",
+      "Short Name": "ru",
+      "Group": "Group A",
       "Points": 0,
       "Total matches": 0,
       "Won": 0,
@@ -164,8 +524,8 @@
       "Status": "sss"
     },
     "t2" : {
-       "Name": "New Zealand",
-      "Short Name": "nzl",
+       "Name": "Saudia Arabia",
+      "Short Name": "sa",
       "Group": "Group A",
       "Points": 0,
       "Total matches": 0,
@@ -174,8 +534,8 @@
       "Status": "Knocked out or in which round"
     },
     "t3" : {
-      "Name": "England",
-      "Short Name": "uk",
+      "Name": "Egypt",
+      "Short Name": "eg",
       "Group": "Group A",
       "Points": 0,
       "Total matches": 0,
@@ -184,8 +544,8 @@
       "Status": "Knocked out or in which round"
     }    ,
     "t4" : {
-      "Name": "Bangladesh",
-      "Short Name": "bd",
+      "Name": "Uruguay",
+      "Short Name": "uy",
       "Group": "Group A",
       "Points": 0,
       "Total matches": 0,
@@ -193,10 +553,10 @@
       "Lost": 0,
       "Status": "Knocked out or in which round"
     },
-    "t1" : {
-      "Name": "Australia",
-      "Short Name": "aus",
-      "Group": "Group A",
+    "t5" : {
+      "Name": "Portugal",
+      "Short Name": "pt",
+      "Group": "Group B",
       "Points": 0,
       "Total matches": 0,
       "Won": 0,
@@ -204,8 +564,8 @@
       "Status": "Knocked out or in which round"
     },
     "t6" : {
-      "Name": "South Africa",
-      "Short Name": "sa",
+      "Name": "Spain",
+      "Short Name": "sp",
       "Group": "Group B",
       "Points": 0,
       "Total matches": 0,
@@ -214,8 +574,8 @@
       "Status": "Knocked out or in which round"
     },
     "t7" : {
-      "Name": "Srilanka",
-      "Short Name": "slk",
+      "Name": "Morocco",
+      "Short Name": "ma",
       "Group": "Group B",
       "Points": 0,
       "Total matches": 0,
@@ -224,8 +584,8 @@
       "Status": "Knocked out or in which round"
     },
     "t8" : {
-      "Name": "Pakistan",
-      "Short Name": "pk",
+      "Name": "Iran",
+      "Short Name": "ir",
       "Group": "Group B",
       "Points": 0,
       "Total matches": 0,
@@ -233,7 +593,246 @@
       "Lost": 0,
       "Status": "Knocked out or in which round"
     },
-
+	"t9" : {
+      "Name": "France",
+      "Short Name": "fr",
+      "Group": "Group C",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t10" : {
+      "Name": "Australia",
+      "Short Name": "au",
+      "Group": "Group C",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t11" : {
+      "Name": "Peru",
+      "Short Name": "pu",
+      "Group": "Group C",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t12" : {
+      "Name": "Denmark",
+      "Short Name": "dk",
+      "Group": "Group C",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t13" : {
+      "Name": "Argentina",
+      "Short Name": "ar",
+      "Group": "Group D",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t14" : {
+      "Name": "Iceland",
+      "Short Name": "il",
+      "Group": "Group D",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t15" : {
+      "Name": "Crotia",
+      "Short Name": "co",
+      "Group": "Group D",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t16" : {
+      "Name": "Nigeria",
+      "Short Name": "ng",
+      "Group": "Group D",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t17" : {
+      "Name": "Brazil",
+      "Short Name": "br",
+      "Group": "Group E",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t18" : {
+      "Name": "Switzerland",
+      "Short Name": "sl",
+      "Group": "Group E",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t19" : {
+      "Name": "Costa Rica",
+      "Short Name": "cr",
+      "Group": "Group E",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t20" : {
+      "Name": "Serbia",
+      "Short Name": "sb",
+      "Group": "Group E",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t21" : {
+      "Name": "Germany",
+      "Short Name": "gy",
+      "Group": "Group F",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t22" : {
+      "Name": "Mexico",
+      "Short Name": "mx",
+      "Group": "Group F",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t23" : {
+      "Name": "Sweden",
+      "Short Name": "se",
+      "Group": "Group F",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t24" : {
+      "Name": "Korea Republic",
+      "Short Name": "kr",
+      "Group": "Group F",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t25" : {
+      "Name": "Belgium",
+      "Short Name": "be",
+      "Group": "Group G",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t26" : {
+      "Name": "Panama",
+      "Short Name": "pa",
+      "Group": "Group G",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t27" : {
+      "Name": "Tunisia",
+      "Short Name": "tn",
+      "Group": "Group G",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t28" : {
+      "Name": "England",
+      "Short Name": "en",
+      "Group": "Group G",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t29" : {
+      "Name": "Poland",
+      "Short Name": "pl",
+      "Group": "Group H",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t30" : {
+      "Name": "Senegal",
+      "Short Name": "sn",
+      "Group": "Group H",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t31" : {
+      "Name": "Colombia",
+      "Short Name": "cl",
+      "Group": "Group H",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
+	"t32" : {
+      "Name": "Japan",
+      "Short Name": "jp",
+      "Group": "Group H",
+      "Points": 0,
+      "Total matches": 0,
+      "Won": 0,
+      "Lost": 0,
+      "Status": "Knocked out or in which round"
+    },
    "Q1A" : {
       "Name": "Q1A",
       "Short Name": "tbd",

@@ -85,59 +85,6 @@ public class CtJSONUpdateAsyncTask extends AsyncTask<String, String, Void> {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
-//        RequestQueue queue = Volley.newRequestQueue(context);
-//        String url = "https://trendinglobe.com/wp-content/uploads/data/testJson.json";
-//
-//        JsonObjectRequest getRequest = new JsonObjectRequest(Request.Method.GET, url, null,
-//                new Response.Listener<JSONObject>()
-//                {
-//                    @Override
-//                    public void onResponse(JSONObject response) {
-//                        // display response
-//                        Log.d("Response", response.toString());
-//                        inputStream = new ByteArrayInputStream(response.toString().getBytes(Charset.forName("UTF-8")));
-//                    }
-//                },
-//                new Response.ErrorListener()
-//                {
-//                    @Override
-//                    public void onErrorResponse(VolleyError error) {
-//                        Log.d("Response", error.getMessage());
-//                    }
-//                }
-//        );
-//        String url_select = "http://zairexport.com/saad/silverhawk/championsTrophy2017.json";
-
-//        ArrayList<NameValuePair> param = new ArrayList<NameValuePair>();
-//
-//        try {
-//            // Set up HTTP post
-//
-//            // HttpClient is more then less deprecated. Need to change to URLConnection
-//            HttpClient httpClient = new DefaultHttpClient();
-//
-//            HttpPost httpPost = new HttpPost(url_select);
-//            httpPost.setEntity(new UrlEncodedFormEntity(param));
-//            HttpResponse httpResponse = httpClient.execute(httpPost);
-//            HttpEntity httpEntity = httpResponse.getEntity();
-//
-//            // Read content & Log
-//            inputStream = httpEntity.getContent();
-//        } catch (UnsupportedEncodingException e1) {
-//            Log.e("UnsupportedEncodngExptn", e1.toString());
-//            e1.printStackTrace();
-//        } catch (ClientProtocolException e2) {
-//            Log.e("ClientProtocolException", e2.toString());
-//            e2.printStackTrace();
-//        } catch (IllegalStateException e3) {
-//            Log.e("IllegalStateException", e3.toString());
-//            e3.printStackTrace();
-//        } catch (IOException e4) {
-//            Log.e("IOException", e4.toString());
-//            e4.printStackTrace();
-//        }
         // Convert response to string using String Builder
         try {
             BufferedReader bReader = new BufferedReader(new InputStreamReader(inputStream, "utf-8"), 8);
@@ -159,7 +106,7 @@ public class CtJSONUpdateAsyncTask extends AsyncTask<String, String, Void> {
     protected void onPostExecute(Void v) {
         //parse JSON data
         try {
-            String newFileName = "/data/data/" + context.getPackageName() + "/championsTrophy2017.json";
+            String newFileName = "/data/data/" + context.getPackageName() + "/data.json";
             FileOutputStream outputStream  = new FileOutputStream(new File(newFileName));
             outputStream.write(result.getBytes());
             outputStream.close();
