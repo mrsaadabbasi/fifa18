@@ -40,18 +40,19 @@ public class CtFixturesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fixtures);
+        adView = (AdView)findViewById(R.id.adView);
         initializeArrrayData();
-//        adView.setVisibility(View.GONE);
-//        AdRequest adRequest = new AdRequest.Builder()
-//                .build();
-//
-//        adView.loadAd(adRequest);
-//        adView.setAdListener(new AdListener() {
-//            @Override
-//            public void onAdLoaded() {
-//                adView.setVisibility(View.VISIBLE);
-//            }
-//        });
+        adView.setVisibility(View.GONE);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+
+        adView.loadAd(adRequest);
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
         ctMatchesListViewItem = new CtMatchesListViewItem(CtFixturesActivity.this, team1List, team2List, matchesId, dateList);
 
         matchesListView = (ListView) findViewById(R.id.listViewMatches);

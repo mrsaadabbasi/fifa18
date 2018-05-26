@@ -3,7 +3,7 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg01"
+    android:background="@drawable/stadium"
     tools:context="com.example.itx_m.fifaworldcup2018.CtMatchDetails"
     android:orientation="vertical">
 
@@ -158,7 +158,7 @@
         android:background="#802A0A12"
         android:theme="@android:style/Theme.Translucent"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-9842282663786907/2998820876"
+        ads:adUnitId="@string/myAdUnitId"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

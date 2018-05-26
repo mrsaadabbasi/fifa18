@@ -10,5 +10,6 @@
     <string name="title_activity_main_menu">Main Menu</string>
     <string name="title_activity_points_table">Points Table</string>
     <string name="webApiUrl">http://zairexport.com/saad/silverhawk/championsTrophy2017.json</string>
+    <string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
 
 </resources>

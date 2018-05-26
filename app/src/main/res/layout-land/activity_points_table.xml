@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:theme="@android:style/Theme.Translucent"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-9842282663786907/2998820876"
+        ads:adUnitId="@string/myAdUnitId"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

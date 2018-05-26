@@ -9,6 +9,7 @@ import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
@@ -32,38 +33,40 @@ import java.util.Date;
 
 public class CtMainMenu extends Activity {
 
-    private InterstitialAd mInterstitialAd;
     private AdView adView;
+    private Button aboutEvent;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-
+        aboutEvent = (Button)findViewById(R.id.button);
         adView = (AdView) findViewById(R.id.adView);
-//        adView.setVisibility(View.GONE);
-//        AdRequest adRequest = new AdRequest.Builder()
-//                .build();
-//
-//        adView.loadAd(adRequest);
-//        adView.setAdListener(new AdListener() {
-//            @Override
-//            public void onAdLoaded() {
-//                adView.setVisibility(View.VISIBLE);
-//            }
-//        });
-//        mInterstitialAd = new InterstitialAd(this);
-//        mInterstitialAd.setAdUnitId("ca-app-pub-9842282663786907/3574230474");
-//
-//        mInterstitialAd.setAdListener(new AdListener() {
-//            public void onAdLoaded() {
-//                // Call displayInterstitial() function
-//                displayInterstitial();
-//            }
-//
-//        });
+
+        aboutEvent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                aboutEvent();
+            }
+        });
+
+        adView.setVisibility(View.GONE);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+
+        adView.loadAd(adRequest);
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
+
 //        NotifyLogic();
 
-        if(savedInstanceState == null){
+        if (savedInstanceState == null) {
             try {
 
                 CtApp.jsonFile = getJSONData();
@@ -71,13 +74,13 @@ public class CtMainMenu extends Activity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            if(CtWifiUtils.isNetworkAvailable(this)){
+            if (CtWifiUtils.isNetworkAvailable(this)) {
                 new CtJSONUpdateAsyncTask(this).execute();
-            }else{
-                Toast.makeText(getApplicationContext(), "Please connect to internet for updated results" ,
+            } else {
+                Toast.makeText(getApplicationContext(), "Please connect to internet for updated results",
                         Toast.LENGTH_LONG).show();
             }
-          //  requestNewInterstitial();
+            //  requestNewInterstitial();
         }
 
     }
@@ -94,7 +97,7 @@ public class CtMainMenu extends Activity {
             convertedDate = dateFormat.parse(date);
             convertedDate2 = dateFormat.parse(dateafter);
             if (convertedDate2.after(convertedDate)) {
-                Notify("T20 WorldCup 2016","Click here to see Updated Point Table");
+                Notify("T20 WorldCup 2016", "Click here to see Updated Point Table");
             }
         } catch (ParseException e) {
             // TODO Auto-generated catch block
@@ -102,32 +105,25 @@ public class CtMainMenu extends Activity {
         }
     }
 
-    public void displayInterstitial() {
-        // If Ads are loaded, show Interstitial else show nothing.
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        }
-    }
 
-    private void Notify(String notificationTitle, String notificationMessage){
+
+    private void Notify(String notificationTitle, String notificationMessage) {
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         @SuppressWarnings("deprecation")
 
-        Notification notification = new Notification(R.drawable.notification_template_icon_bg,"New Message", System.currentTimeMillis());
-        Intent notificationIntent = new Intent(this,CtPointsTable.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,notificationIntent, 0);
+        Notification notification = new Notification(R.drawable.notification_template_icon_bg, "New Message", System.currentTimeMillis());
+        Intent notificationIntent = new Intent(this, CtPointsTable.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
         notification.flags |= Notification.FLAG_AUTO_CANCEL;
         notification.defaults |= Notification.DEFAULT_SOUND;
         //notification.setLatestEventInfo(CtMainMenu.this, notificationTitle,notificationMessage, pendingIntent);
         notificationManager.notify(9999, notification);
     }
 
-    private void requestNewInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder()
-                .build();
-        mInterstitialAd.loadAd(adRequest);
+    public void aboutEvent(){
+        Intent intent = new Intent(getApplicationContext(),AboutActivity.class);
+        startActivity(intent);
     }
-
     public void showFixtures(View view) {
         Intent startingPoint = new Intent("android.intent.action.CTFIXTURESLIST");
         startActivity(startingPoint);
@@ -140,22 +136,18 @@ public class CtMainMenu extends Activity {
         overridePendingTransition(R.anim.abc_popup_enter, R.anim.abc_popup_exit);
     }
 
-    public void exitApp(View view) {
-        finish();
-    }
-
     private JSONObject getJSONData() throws JSONException {
         return new JSONObject(loadJSONFromSuitablePlace());
     }
 
     public String loadJSONFromSuitablePlace() {
         if (CtStorageHelper.isExternalStorageReadableAndWritable()) {
-            if (!fileExistsInExternalStorage("championsTrophy2017.json")) {
-                copyFiletoExternalStorage("championsTrophy2017.json");
+            if (!fileExistsInExternalStorage("data.json")) {
+                copyFiletoExternalStorage("data.json");
             }
-            return readJsonObjectFromPath("/data/data/" + this.getPackageName() + "/championsTrophy2017.json", true);
+            return readJsonObjectFromPath("/data/data/" + this.getPackageName() + "/data.json", true);
         } else
-            return readJsonObjectFromPath("championsTrophy2017.json", false);
+            return readJsonObjectFromPath("data.json", false);
 
     }
 
@@ -220,7 +212,6 @@ public class CtMainMenu extends Activity {
 
     private void checkIfAssetsFileIsRecent() {
     }
-
 
 
 }

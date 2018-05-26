@@ -17,9 +17,11 @@ public class CtSplash extends Activity {
             public void run(){
                 try{
                     sleep(3000);
-                    Intent startingPoint = new Intent("android.intent.action.CTMAINMENU");
-                    startActivity(startingPoint);
-                    overridePendingTransition(R.anim.abc_popup_enter, R.anim.abc_popup_exit);
+//                    Intent startingPoint = new Intent("android.intent.action.StartingActivity");
+//                    startActivity(startingPoint);
+//                    overridePendingTransition(R.anim.abc_popup_enter, R.anim.abc_popup_exit);
+                    Intent intent = new Intent(getApplicationContext(),StartingActivity.class);
+                    startActivity(intent);
                 }
                 catch(InterruptedException e){
                     e.printStackTrace();

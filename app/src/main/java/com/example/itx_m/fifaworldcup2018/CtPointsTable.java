@@ -46,17 +46,17 @@ public class CtPointsTable extends AppCompatActivity {
 
         /** Setting the pagerAdapter to the pager object */
         pager.setAdapter(pagerAdapter);
-//        adView.setVisibility(View.GONE);
-//        AdRequest adRequest = new AdRequest.Builder()
-//                .build();
-//
-//        adView.loadAd(adRequest);
-//        adView.setAdListener(new AdListener() {
-//            @Override
-//            public void onAdLoaded() {
-//                adView.setVisibility(View.VISIBLE);
-//            }
-//        });
+        adView.setVisibility(View.GONE);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+
+        adView.loadAd(adRequest);
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
     }
 
     private void separateTeamsOnPool() {

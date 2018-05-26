@@ -7,7 +7,6 @@
     android:paddingRight="8dp"
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
-    tools:context=".MainActivity"
     android:background="@drawable/stadium">
 
     <LinearLayout
@@ -26,8 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@android:style/Theme.Translucent"
-            ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-9842282663786907/2998820876" />
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/myAdUnitId" />
         <LinearLayout
             android:id="@+id/searchBar"
             android:background="#802A0A12"

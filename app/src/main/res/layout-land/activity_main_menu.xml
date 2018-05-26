@@ -59,14 +59,14 @@
             android:layout_weight="1"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:text="Exit"
+            android:text="About"
             android:id="@+id/button"
             android:textColor="#ffffff"
             android:layout_below="@+id/button2"
             android:layout_centerHorizontal="true"
             android:background="@drawable/ballbtn"
             android:layout_marginTop="10dp"
-            android:onClick="exitApp" />
+            />
 
 
     </RelativeLayout>
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:theme="@android:style/Theme.Translucent"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-9842282663786907/2998820876"
+        ads:adUnitId="@string/myAdUnitId"
         android:layout_below="@+id/imglayout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

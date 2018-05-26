@@ -63,17 +63,17 @@ public class CtMatchDetails extends Activity {
         imageTeam1 = (ImageView) findViewById(R.id.imageViewTeam1);
         imageTeam2 = (ImageView) findViewById(R.id.imageViewTeam2);
 
-//        adView.setVisibility(View.GONE);
-//        AdRequest adRequest = new AdRequest.Builder()
-//                .build();
-//
-//        adView.loadAd(adRequest);
-//        adView.setAdListener(new AdListener() {
-//            @Override
-//            public void onAdLoaded() {
-//                adView.setVisibility(View.VISIBLE);
-//            }
-//        });
+        adView.setVisibility(View.GONE);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+
+        adView.loadAd(adRequest);
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adView.setVisibility(View.VISIBLE);
+            }
+        });
         try {
             tvTeam1Name.setText(team1Info.getString("Name"));
             tvTeam2Name.setText(team2Info.getString("Name"));
