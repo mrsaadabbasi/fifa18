@@ -64,14 +64,14 @@ public class CtPointsTable extends AppCompatActivity {
         try {
             JSONObject teams = CtApp.jsonFile.getJSONObject("Teams");
             ArrayList<CtTeam> ctTeamList;
-            for (int x = 1; x <= teams.length() - 3; x++) {
+            for (int x = 1; x <= teams.length() - 33; x++) {
                 ctTeamList = new ArrayList<>();
                 currentlyBeingSortedPool = teams.getJSONObject("t" + x).getString("Group");
                 if (sortedTeams.containsKey(currentlyBeingSortedPool))
                     continue;
                 pools.add(currentlyBeingSortedPool);
                 ctTeamList.add(jsonObjectToTeamObject(teams.getJSONObject("t" + x)));
-                for (int y = x + 1; y <= teams.length() - 3; y++) {
+                for (int y = x + 1; y <= teams.length() - 33; y++) {
                     if (teams.getJSONObject("t" + y).getString("Group").equals(currentlyBeingSortedPool))
                         ctTeamList.add(jsonObjectToTeamObject(teams.getJSONObject("t" + y)));
                 }

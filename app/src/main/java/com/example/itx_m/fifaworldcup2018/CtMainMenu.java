@@ -15,7 +15,6 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -34,21 +33,20 @@ import java.util.Date;
 public class CtMainMenu extends Activity {
 
     private AdView adView;
-    private Button aboutEvent;
-
+    private Button groupsButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        aboutEvent = (Button)findViewById(R.id.button);
+        groupsButton = (Button) findViewById(R.id.button);
         adView = (AdView) findViewById(R.id.adView);
 
-        aboutEvent.setOnClickListener(new View.OnClickListener() {
+        groupsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                aboutEvent();
+                groupsAvtivity();
             }
         });
 
@@ -106,7 +104,6 @@ public class CtMainMenu extends Activity {
     }
 
 
-
     private void Notify(String notificationTitle, String notificationMessage) {
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         @SuppressWarnings("deprecation")
@@ -120,10 +117,11 @@ public class CtMainMenu extends Activity {
         notificationManager.notify(9999, notification);
     }
 
-    public void aboutEvent(){
-        Intent intent = new Intent(getApplicationContext(),AboutActivity.class);
+    public void groupsAvtivity() {
+        Intent intent = new Intent(getApplicationContext(), GroupsActivity.class);
         startActivity(intent);
     }
+
     public void showFixtures(View view) {
         Intent startingPoint = new Intent("android.intent.action.CTFIXTURESLIST");
         startActivity(startingPoint);

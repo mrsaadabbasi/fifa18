@@ -1,0 +1,14 @@
+<resources>
+    <string name="mainMenu">기본 메뉴</string>
+	<string name="fixtures">비품</string>
+	<string name="pointstable">포인트 테이블</string>
+	<string name="theevent">이벤트</string>
+	<string name="teamgroups">팀 그룹</string>
+	<string name="exit">출구</string>
+	<string name="matchDetails">경기 세부 정보</string>
+	<string name="app_name">Fifa Worldcup 2018</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="title_activity_splash">Splash</string>
+<string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

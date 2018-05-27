@@ -1,73 +1,66 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="@drawable/bg01"
+    android:orientation="vertical"
     tools:context="com.example.itx_m.fifaworldcup2018.CtMainMenu">
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@android:style/Theme.Translucent"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="@string/myAdUnitId" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/logosmall" />
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@android:style/Theme.Translucent"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/myAdUnitId" />
+
         <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="Fixtures"
             android:id="@+id/button3"
-            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
             android:background="@drawable/ballbtn"
             android:onClick="showFixtures"
-            android:layout_alignTop="@+id/button2"
-            android:layout_toLeftOf="@+id/button2"
-            android:layout_toStartOf="@+id/button2"
-            android:layout_marginRight="20dp"
-            android:layout_marginEnd="20dp" />
+            android:text="@string/fixtures"
+            android:textColor="#ffffff" />
 
         <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="Points\nTable"
             android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
             android:background="@drawable/ballbtn"
             android:onClick="showPointsTable"
+            android:text="@string/pointstable"
             android:textColor="#ffffff"
-            android:layout_alignTop="@+id/button"
-            android:layout_centerHorizontal="true" />
+
+            />
+
         <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:text="The\nEvent"
             android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
             android:background="@drawable/ballbtn"
+            android:text="@string/teamgroups"
             android:textColor="#ffffff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/button2"
-            android:layout_toEndOf="@+id/button2" />
 
 
+            />
 
-    </RelativeLayout>
-</RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

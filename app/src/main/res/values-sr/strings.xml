@@ -1,0 +1,14 @@
+<resources>
+    <string name="mainMenu">Главни мени</string>
+	<string name="fixtures">Фиктурес</string>
+	<string name="pointstable">Табела бодова</string>
+	<string name="theevent">Догађај</string>
+	<string name="teamgroups">Тимске групе</string>
+	<string name="exit">Изађи</string>
+	<string name="matchDetails">Детаљи утакмице</string>
+	<string name="app_name">Fifa Worldcup 2018</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="title_activity_splash">Splash</string>
+<string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

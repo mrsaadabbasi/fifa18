@@ -1,5 +1,6 @@
 package com.example.itx_m.fifaworldcup2018;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,10 +12,10 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
-public class StartingActivity extends AppCompatActivity {
+public class StartingActivity extends Activity {
 
     private AdView adView;
-    Button menuButton, exitButton, groupsActivitybtn;
+    Button menuButton, exitButton, aboutEventButton;
     private InterstitialAd mInterstitialAd;
 
     @Override
@@ -23,7 +24,7 @@ public class StartingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_starting);
         exitButton = (Button)findViewById(R.id.exitButton);
         menuButton = (Button)findViewById(R.id.menuButton);
-        groupsActivitybtn = (Button)findViewById(R.id.groupsButton);
+        aboutEventButton = (Button)findViewById(R.id.aboutButton);
         adView = (AdView) findViewById(R.id.adView);
 
         exitButton.setOnClickListener(new View.OnClickListener() {
@@ -40,10 +41,10 @@ public class StartingActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        groupsActivitybtn.setOnClickListener(new View.OnClickListener() {
+        aboutEventButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),GroupsActivity.class);
+                Intent intent = new Intent(getApplicationContext(),AboutActivity.class);
                 startActivity(intent);
             }
         });

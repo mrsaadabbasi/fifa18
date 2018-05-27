@@ -1,0 +1,14 @@
+<resources>
+    <string name="mainMenu">Главное меню</string>
+	<string name="fixtures">арматура</string>
+	<string name="pointstable">Таблица точек</string>
+	<string name="theevent">Событие</string>
+	<string name="teamgroups">Группы команд</string>
+	<string name="exit">Выход</string>
+	<string name="matchDetails">Информация о матче</string>
+	<string name="app_name">Fifa Worldcup 2018</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="title_activity_splash">Splash</string>
+<string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

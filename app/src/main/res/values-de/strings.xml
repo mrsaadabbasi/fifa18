@@ -1,0 +1,15 @@
+<resources>
+    <string name="mainMenu">Hauptmenü</string>
+	<string name="fixtures">Befestigungen</string>
+	<string name="pointstable">Punktetabelle</string>
+	<string name="theevent">Das Ereignis</string>
+	<string name="teamgroups">Team Gruppen</string>
+	<string name="exit">Ausgang</string>
+	  <string name="matchDetails">Spieldetails</string>
+	  <string name="app_name">Fifa Worldcup 2018</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="title_activity_splash">Splash</string>
+<string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
+

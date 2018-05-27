@@ -29,7 +29,7 @@
         </activity>
         <activity
             android:name=".CtMatchDetails"
-            android:label="@string/title_activity_match_details">
+            android:label="@string/matchDetails">
             <intent-filter>
                 <action android:name="android.intent.action.CTMATCHDETAILS" />
 
@@ -38,7 +38,7 @@
         </activity>
         <activity
             android:name=".CtMainMenu"
-            android:label="@string/title_activity_main_menu">
+            android:label="@string/mainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.CTMAINMENU" />
 
@@ -47,7 +47,7 @@
         </activity>
         <activity
             android:name=".CtPointsTable"
-            android:label="@string/title_activity_points_table">
+            android:label="@string/pointstable">
             <intent-filter>
                 <action android:name="android.intent.action.CTPOINTSTABLE" />
 
@@ -56,7 +56,7 @@
         </activity>
         <activity
             android:name=".AboutActivity"
-            android:label="About Event"
+            android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.ABOUTACTIVITY" />
@@ -83,6 +83,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
             android:name=".GroupsActivity"
+            android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.GROUPSACTIVITY" />
