@@ -482,35 +482,165 @@
       "Venue": "Kaliningrad Stadium, Kaliningrad"
     },
    {
-      "TeamOne": "TBD",
-      "TeamTwo": "TBD",
-      "Date": "June 14, 2017",
-      "Day": "Wednesday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "TeamOne": "1C",
+      "TeamTwo": "2D",
+      "Date": "June 30, 2018",
+      "Day": "Saturday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Kazan Arena, Kazan"
+    },
+    {
+      "TeamOne": "1A",
+      "TeamTwo": "2B",
+      "Date": "June 30, 2018",
+      "Day": "Saturday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Fisht Stadium, Sochi"
+    },
+    {
+      "TeamOne": "1B",
+      "TeamTwo": "2A",
+      "Date": "July 01, 2018",
+      "Day": "Sunday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Luzhniki Stadium, Moscow"
+    },
+    {
+      "TeamOne": "1D",
+      "TeamTwo": "2C",
+      "Date": "July 01, 2018",
+      "Day": "Sunday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Nizhny Novgorod Stadium, Nizhny Novgorod"
+    },
+    {
+      "TeamOne": "1E",
+      "TeamTwo": "2F",
+      "Date": "July 02, 2018",
+      "Day": "Monday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Samara Arena, Samara"
+    },
+    {
+      "TeamOne": "1G",
+      "TeamTwo": "2H",
+      "Date": "July 02, 2018",
+      "Day": "Monday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Rostov Arena, Rostov-On-Don"
+    },
+    {
+      "TeamOne": "1F",
+      "TeamTwo": "2E",
+      "Date": "July 03, 2018",
+      "Day": "Tuesday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
+    },
+    {
+      "TeamOne": "1H",
+      "TeamTwo": "2G",
+      "Date": "July 03, 2018",
+      "Day": "Tuesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Round of 16, Knockout",
+      "WinningTeam": "",
+      "Venue": "Spartak Stadium, Moscow"
+    },
+    {
+      "TeamOne": "W49",
+      "TeamTwo": "W50",
+      "Date": "July 06, 2018",
+      "Day": "Friday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Quarter Final",
+      "WinningTeam": "",
+      "Venue": "Nizhny Novgorod Stadium, Novgorod"
+    },
+    {
+      "TeamOne": "W53",
+      "TeamTwo": "W54",
+      "Date": "July 06, 2018",
+      "Day": "Friday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Quarter Final",
+      "WinningTeam": "",
+      "Venue": "Kazan Arena, Kazan"
+    } ,
+    {
+      "TeamOne": "W55",
+      "TeamTwo": "W56",
+      "Date": "July 07, 2018",
+      "Day": "Saturday",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
+      "Round": "Quarter Final",
+      "WinningTeam": "",
+      "Venue": "Samara Arena, Samara"
+    },
+    {
+      "TeamOne": "W51",
+      "TeamTwo": "W52",
+      "Date": "July 07, 2018",
+      "Day": "Saturday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
+      "Round": "Quarter Final",
+      "WinningTeam": "",
+      "Venue": "Fisht Stadium, Sochi"
+    },
+    {
+      "TeamOne": "W57",
+      "TeamTwo": "W58",
+      "Date": "July 10, 2018",
+      "Day": "Tuesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
       "Round": "First Semi-Final",
       "WinningTeam": "",
-      "Venue": "Sophia Gardens, Cardiff"
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
     },
     {
-      "TeamOne": "TBD",
-      "TeamTwo": "TBD",
-      "Date": "June 15, 2017",
-      "Day": "Thursday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "TeamOne": "W59",
+      "TeamTwo": "W60",
+      "Date": "July 11, 2018",
+      "Day": "Wednesday",
+      "Time": "06:00 PM	GMT	/ 09:00 PM LOCAL",
       "Round": "Second Semi-Final",
       "WinningTeam": "",
-      "Venue": "Edgbaston, Birmingham"
+      "Venue": "Luzhniki Stadium, Moscow"
     },
     {
-      "TeamOne": "TBD",
-      "TeamTwo": "TBD",
-      "Date": "June 18, 2017",
+      "TeamOne": "L61",
+      "TeamTwo": "L62",
+      "Date": "July 14, 2018",
+      "Day": "Saturday",
+      "Time": "02:00 PM	GMT	/ 05:00 PM LOCAL",
+      "Round": "Play-off for third place",
+      "WinningTeam": "",
+      "Venue": "Saint Petersburg Stadium, St. Petersburg"
+    },
+    {
+      "TeamOne": "W61",
+      "TeamTwo": "W62",
+      "Date": "July 15, 2018",
       "Day": "Sunday",
-      "Time": "09:30 AM	GMT	/ 10:30 AM LOCAL",
+      "Time": "03:00 PM	GMT	/ 06:00 PM LOCAL",
       "Round": "Final",
       "WinningTeam": "",
-      "Venue": "Kennington Oval, London"
-    }   
+      "Venue": "Luzhniki Stadium, Moscow"
+    }        
   ],
 "Teams": {
     "t1" : {
@@ -833,26 +963,327 @@
       "Lost": 0,
       "Status": "Knocked out or in which round"
     },
-   "Q1A" : {
-      "Name": "Q1A",
+   "1A" : {
+      "Name": "1A",
       "Short Name": "tbd",
-      "Group": "Group B",
+      "Group": "",
       "Points": 0,
       "Total matches": 0,
       "Won": 0,
       "Lost": 0,
       "Status": "Knocked out or in which round"
     },
-    "Q1B" : {
-          "Name": "Q1B",
+    "1B" : {
+          "Name": "1B",
           "Short Name": "tbd",
-          "Group": "Group A",
+          "Group": "",
           "Points": 0,
           "Total matches": 0,
           "Won": 0,
           "Lost": 0,
           "Status": "Knocked out or in which round"
-    },"TBD" : {
+    },
+	"1C" : {
+          "Name": "1C",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"1D" : {
+          "Name": "1D",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"1E" : {
+          "Name": "1E",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"1F" : {
+          "Name": "1F",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"1G" : {
+          "Name": "1G",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"1H" : {
+          "Name": "1H",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2A" : {
+          "Name": "2A",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2B" : {
+          "Name": "2B",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2C" : {
+          "Name": "2C",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2D" : {
+          "Name": "2D",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2E" : {
+          "Name": "2E",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2F" : {
+          "Name": "2F",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2G" : {
+          "Name": "2G",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"2H" : {
+          "Name": "2H",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W49" : {
+          "Name": "W49",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W50" : {
+          "Name": "W50",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W51" : {
+          "Name": "W51",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W52" : {
+          "Name": "W52",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W53" : {
+          "Name": "W53",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W54" : {
+          "Name": "W54",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W55" : {
+          "Name": "W55",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W56" : {
+          "Name": "W56",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W57" : {
+          "Name": "W57",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W58" : {
+          "Name": "W58",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W59" : {
+          "Name": "W59",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W60" : {
+          "Name": "W60",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W61" : {
+          "Name": "W61",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"W62" : {
+          "Name": "W62",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"L61" : {
+          "Name": "L61",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"L62" : {
+          "Name": "L62",
+          "Short Name": "tbd",
+          "Group": "",
+          "Points": 0,
+          "Total matches": 0,
+          "Won": 0,
+          "Lost": 0,
+          "Status": "Knocked out or in which round"
+    },
+	"TBD" : {
                "Name": "TBD",
                "Short Name": "tbd",
                "Group": "",

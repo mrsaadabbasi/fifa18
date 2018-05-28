@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg01"
+    android:background="@drawable/groupbg"
     android:orientation="vertical"
     tools:context="com.example.itx_m.fifaworldcup2018.GroupsActivity">
     <com.google.android.gms.ads.AdView
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@android:style/Theme.Translucent"
-        ads:adSize="SMART_BANNER"
+        ads:adSize="BANNER"
         ads:adUnitId="@string/myAdUnitId" />
     <ScrollView
         android:layout_width="wrap_content"

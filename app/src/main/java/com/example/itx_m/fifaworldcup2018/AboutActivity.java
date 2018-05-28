@@ -30,7 +30,7 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("ca-app-pub-8177072827417677/2465923655");
         AdRequest adRequestInter = new AdRequest.Builder()
                 .build();
         mInterstitialAd.loadAd(adRequestInter);

@@ -10,11 +10,6 @@ import android.net.wifi.WifiManager;
  */
 public class CtWifiUtils {
 
-    public static void setWifiEnabled(Context context, Boolean enabled){
-        WifiManager wifi = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
-        wifi.setWifiEnabled(enabled);
-    }
-
     public static boolean isNetworkAvailable(Context context) {
         // Using ConnectivityManager to check for Network Connection
         ConnectivityManager connectivityManager = (ConnectivityManager) context

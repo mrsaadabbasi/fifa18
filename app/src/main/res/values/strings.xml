@@ -12,9 +12,6 @@
     <string name="title_activity_splash">Splash</string>
     <string name="fixtures">Fixtures</string>
     <string name="matchDetails">Match Details</string>
-    
-    
-    <string name="webApiUrl">http://zairexport.com/saad/silverhawk/championsTrophy2017.json</string>
-    <string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="myAdUnitId">ca-app-pub-8177072827417677/3998497177</string>
 
 </resources>

@@ -167,7 +167,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@android:style/Theme.Translucent"
-            ads:adSize="SMART_BANNER"
+            ads:adSize="BANNER"
             ads:adUnitId="@string/myAdUnitId"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"

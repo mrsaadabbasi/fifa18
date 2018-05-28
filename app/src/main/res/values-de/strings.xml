@@ -10,6 +10,6 @@
 <string name="hello_world">Hello world!</string>
 <string name="action_settings">Settings</string>
 <string name="title_activity_splash">Splash</string>
-<string name="myAdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="myAdUnitId">ca-app-pub-8177072827417677/3998497177</string>
 </resources>
 

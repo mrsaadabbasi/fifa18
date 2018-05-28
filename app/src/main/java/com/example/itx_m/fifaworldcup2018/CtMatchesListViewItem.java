@@ -111,7 +111,7 @@ public class CtMatchesListViewItem extends BaseAdapter implements Filterable{
         //Invoked in a worker thread to filter the data according to the constraint.
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
-
+            constraint = constraint.toString().toLowerCase();
             FilterResults results = new FilterResults();
 
             CustomListItem customListItem = new CustomListItem();

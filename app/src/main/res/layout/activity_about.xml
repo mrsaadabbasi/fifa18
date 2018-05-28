@@ -17,7 +17,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="44dp"
         android:theme="@android:style/Theme.Translucent"
-        ads:adSize="SMART_BANNER"
+        ads:adSize="BANNER"
         ads:adUnitId="@string/myAdUnitId" />
 
     <ImageView

@@ -9,25 +9,25 @@
     android:paddingBottom="8dp"
     android:background="@drawable/bg01">
 
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/searchLayout"
         android:orientation="vertical">
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@android:style/Theme.Translucent"
-            ads:adSize="SMART_BANNER"
-            ads:adUnitId="@string/myAdUnitId" />
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
         </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
+            android:theme="@android:style/Theme.Translucent"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/myAdUnitId" />
         <LinearLayout
             android:id="@+id/searchBar"
             android:background="#802A0A12"
